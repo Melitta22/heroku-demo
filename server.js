@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 
 function status404(response) {
     response.writeHead(404, {'Content-Type': 'text/html'});
-    response.write('<h1>404 Not Found</h1>');
+    response.write('<h1>Error Code: 404. Page Not Found</h1>');
     response.end();
 }
 
